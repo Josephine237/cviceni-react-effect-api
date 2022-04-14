@@ -3,8 +3,9 @@ import React from 'react';
 import { render } from 'react-dom';
 import './style.css';
 
-import Komponenta from './components/Komponenta';
-import People from './components/People';
+import { Person } from './components/Person';
+import { People } from './components/People';
+import { Nameday } from './components/Nameday';
 
 const App = () => {
   return (
@@ -14,7 +15,9 @@ const App = () => {
       <Person />
       <hr />
       <People />
-      
+      <hr />
+      <Nameday />
+
     </>
   );
 }
